@@ -1,144 +1,275 @@
 {
-  "type": "bubble",
-  "body": {
-    "type": "box",
-    "layout": "vertical",
-    "contents": [
-      {
-        "type": "text",
-        "text": "รบกวนขอข้อมูลเพิ่มเติม",
-        "weight": "bold",
-        "color": "#1DB446",
-        "size": "sm"
-      },
-      {
-        "type": "text",
-        "text": "กรณีที่ส่งข้อความแล้วไม่ขึ้นจอ",
-        "weight": "bold",
-        "size": "lg",
-        "margin": "md"
-      },
-      {
-        "type": "text",
-        "text": "ทางทีมงานขอข้อมูลเพื่อไปประกอบข้อมูลเพิ่มครับ",
-        "size": "xs",
-        "color": "#aaaaaa",
-        "wrap": true
-      },
-      {
-        "type": "separator",
-        "margin": "xxl"
-      },
-      {
-        "type": "box",
-        "layout": "vertical",
-        "margin": "xxl",
-        "spacing": "sm",
-        "contents": [
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "contents": [
-              {
-                "type": "text",
-                "text": "ชื่อผู้ใช้ / ลิ้งค์",
-                "size": "sm",
-                "color": "#555555",
-                "flex": 0
-              },
-              {
-                "type": "text",
-                "text": "Barism",
-                "size": "sm",
-                "color": "#111111",
-                "align": "end"
-              }
-            ]
-          },
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "contents": [
-              {
-                "type": "text",
-                "text": "ชื่อร้านที่ลูกค้าขึ้นจอ",
-                "size": "sm",
-                "color": "#555555",
-                "flex": 0
-              },
-              {
-                "type": "text",
-                "text": "Barism Shop",
-                "size": "sm",
-                "color": "#111111",
-                "align": "end"
-              }
-            ]
-          },
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "contents": [
-              {
-                "type": "text",
-                "text": "สลิปที่โอน",
-                "size": "sm",
-                "color": "#555555",
-                "flex": 0
-              },
-              {
-                "type": "text",
-                "text": "แนบรูปภาพได้เลยครับ",
-                "size": "sm",
-                "color": "#111111",
-                "align": "end"
-              }
-            ]
-          },
-          {
-            "type": "separator",
-            "margin": "xxl"
-          },
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "contents": [
-              {
-                "type": "text",
-                "text": "ทางทีมงานขอขอบพระคุณอย่างสูง ลูกค้าอดใจรอสักครู่หากมีอัพเดต จะส่งข้อมูลเพิ่มเติมให้ในแชทนี้นะครับ",
-                "size": "sm",
-                "color": "#555555",
-                "wrap": true,
-                "margin": "none",
-                "weight": "bold"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "separator",
-        "margin": "xxl"
-      },
-      {
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "size": "mega",
+      "header": {
         "type": "box",
         "layout": "horizontal",
-        "margin": "md",
         "contents": [
           {
-            "type": "text",
-            "text": "Barism Bot Service",
-            "size": "xs",
-            "color": "#aaaaaa",
-            "flex": 0
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "กรณีที่ส่งข้อความแล้วไม่ขึ้นจอ",
+                "weight": "bold",
+                "size": "lg",
+                "color": "#ffcc00"
+              },
+              {
+                "type": "text",
+                "text": "2,900,000 followers",
+                "size": "sm",
+                "weight": "bold",
+                "contents": [
+                  {
+                    "type": "span",
+                    "text": "ทางทีมงานต้องขอข้อมูลลูกค้าเพิ่มเติมครับ"
+                  }
+                ],
+                "offsetEnd": "none",
+                "margin": "none"
+              }
+            ],
+            "paddingStart": "xs",
+            "alignItems": "flex-start",
+            "justifyContent": "flex-start",
+            "margin": "lg"
           }
-        ]
+        ],
+        "alignItems": "center",
+        "margin": "none",
+        "justifyContent": "flex-start",
+        "paddingStart": "xs",
+        "paddingTop": "lg",
+        "paddingBottom": "md"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+                    "margin": "none"
+                  }
+                ],
+                "margin": "none",
+                "justifyContent": "flex-start",
+                "alignItems": "flex-start",
+                "width": "7%"
+              },
+              {
+                "type": "text",
+                "text": "ชื่อผู้ใช้ / ลิ้งค์ที่มีปัญหา",
+                "size": "sm",
+                "wrap": true,
+                "margin": "sm",
+                "contents": [
+                  {
+                    "type": "span",
+                    "text": "ชื่อผู้ใช้ลูกค้าที่ขึ้นจอ :",
+                    "decoration": "none"
+                  },
+                  {
+                    "type": "span",
+                    "text": " barism",
+                    "weight": "bold"
+                  }
+                ]
+              }
+            ],
+            "spacing": "none",
+            "paddingAll": "none",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+                    "margin": "none"
+                  }
+                ],
+                "margin": "none",
+                "justifyContent": "flex-start",
+                "alignItems": "flex-start",
+                "width": "7%"
+              },
+              {
+                "type": "text",
+                "text": "Height :    ",
+                "size": "sm",
+                "wrap": true,
+                "margin": "sm",
+                "contents": [
+                  {
+                    "type": "span",
+                    "text": "แคปชั่น :",
+                    "decoration": "underline"
+                  },
+                  {
+                    "type": "span",
+                    "text": " อกหักบอกผัวไม่ได้",
+                    "weight": "bold"
+                  }
+                ]
+              }
+            ],
+            "spacing": "none",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+                    "margin": "none"
+                  }
+                ],
+                "margin": "none",
+                "justifyContent": "flex-start",
+                "alignItems": "flex-start",
+                "width": "7%"
+              },
+              {
+                "type": "text",
+                "text": "ชื่อผู้ใช้ / ลิ้งค์ที่มีปัญหา",
+                "size": "sm",
+                "wrap": true,
+                "margin": "sm",
+                "contents": [
+                  {
+                    "type": "span",
+                    "text": "ร้าน :",
+                    "decoration": "none"
+                  },
+                  {
+                    "type": "span",
+                    "text": " Barism Shop",
+                    "weight": "bold"
+                  }
+                ]
+              }
+            ],
+            "spacing": "none",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+                    "margin": "none"
+                  }
+                ],
+                "margin": "none",
+                "justifyContent": "flex-start",
+                "alignItems": "flex-start",
+                "width": "7%"
+              },
+              {
+                "type": "text",
+                "text": "Height :    ",
+                "size": "sm",
+                "wrap": true,
+                "margin": "sm",
+                "contents": [
+                  {
+                    "type": "span",
+                    "text": "สลิป :",
+                    "decoration": "underline"
+                  },
+                  {
+                    "type": "span",
+                    "text": " แนบสลิป ที่โอนเงิน",
+                    "weight": "bold"
+                  }
+                ]
+              }
+            ],
+            "spacing": "none",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "Height :    ",
+                "weight": "bold",
+                "size": "sm",
+                "wrap": true,
+                "margin": "sm",
+                "contents": [
+                  {
+                    "type": "span",
+                    "text": "หลังจากที่ส่งข้อมูลแล้วทางทีมงานจะรีบตอบกลับครับ"
+                  }
+                ]
+              }
+            ],
+            "spacing": "none",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          }
+        ],
+        "paddingStart": "lg",
+        "spacing": "sm",
+        "paddingTop": "md"
+      },
+      "styles": {
+        "header": {
+          "separator": false,
+          "separatorColor": "#B6BBBE"
+        },
+        "hero": {
+          "separator": true,
+          "separatorColor": "#B6BBBE"
+        },
+        "body": {
+          "separatorColor": "#B6BBBE",
+          "separator": true
+        },
+        "footer": {
+          "separatorColor": "#B6BBBE",
+          "separator": false
+        }
       }
-    ]
-  },
-  "styles": {
-    "footer": {
-      "separator": true
     }
-  }
+  ]
 }
